@@ -62,7 +62,7 @@ setup(name='django-registration',
           'Programming Language :: Python :: 3.7',
           'Topic :: Utilities'],
       install_requires=[
-          'Django>=1.11,<2.2',
+          'Django>=1.11,<=2.2',
           'confusable_homoglyphs~=3.0',
       ],
 )
